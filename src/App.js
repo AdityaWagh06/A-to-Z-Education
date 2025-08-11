@@ -13,7 +13,7 @@ function App() {
   // Initialize dark mode from localStorage or system preference
   const [darkMode, setDarkMode] = useState(() => {
     const savedMode = localStorage.getItem('darkMode');
-    return savedMode ? JSON.parse(savedMode) : window.matchMedia('(prefers-color-scheme: dark)').matches;
+    return savedMode ? JSON.parse(savedMode) : false; // Default to light mode
   });
 
   // Toggle dark mode and persist in localStorage
