@@ -43,12 +43,12 @@ const About = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6">
             About{' '}
             <span className="text-primary-600 dark:text-primary-400">
-              A-to-Z Education
+              A to Z Education
             </span>
           </h1>
           <div className="max-w-4xl mx-auto">
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 leading-relaxed mb-8">
-              A-to-Z Education is a free educational platform created to provide open access
+              A to Z Education is a free educational platform created to provide open access
               to high-quality study materials, learning resources, and guidance for students
               across all standards. Our mission is to make education affordable, inclusive,
               and accessible to everyone.
@@ -140,7 +140,7 @@ const About = () => {
             Reach out to learn more about our mission, resources, or books featured above.
           </p>
           <a
-            href="https://chat.whatsapp.com/FtFd5b0qGs3DHKu5xvtUHH"
+            href="https://chat.whatsapp.com/C0TLKGQgnud4gsdE77V2mg?mode=ac_t"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl inline-block"
