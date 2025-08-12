@@ -54,7 +54,7 @@ const Home = () => {
 <div className="mt-10 flex flex-col items-center gap-4">
   {/* Channel Name */}
   <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200">
-    Atoz education - Anand wagh
+    A to z education - Anand wagh
   </h3>
 
   {/* Stats */}
