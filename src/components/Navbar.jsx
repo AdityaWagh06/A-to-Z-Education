@@ -23,7 +23,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link to="/" className="flex items-center space-x-2">
+            <Link to="/" className="flex items-center space-x--2">
               <img 
                 src="/logo1.png" 
                 alt="A to Z Education Logo" 

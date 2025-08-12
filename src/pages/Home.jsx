@@ -5,16 +5,11 @@ const Home = () => {
   const navigate = useNavigate();
 
   const handleStartLearning = () => {
-   
     navigate('/learn');
   };
-  
-
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
-      
-      
       {/* Hero Section */}
       <div className="relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
@@ -29,13 +24,13 @@ const Home = () => {
 
             {/* Hero Description */}
             <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Comprehensive educational resources and learning materials designed specifically 
-              for students from 2nd to 5th standard. Discover a world of knowledge with our 
+              Comprehensive educational resources and learning materials designed specifically
+              for students from 2nd to 5th standard. Discover a world of knowledge with our
               carefully curated content, interactive lessons, and engaging study materials.
             </p>
 
-            {/* Start Learning Button */}
-            <div style={{display: 'flex', justifyContent: 'center', marginBottom: '48px'}}>
+            {/* Start Learning Button + YouTube Info */}
+            <div className="flex flex-col items-center mb-12">
               <button
                 onClick={handleStartLearning}
                 style={{
@@ -48,12 +43,38 @@ const Home = () => {
                   fontWeight: 'bold',
                   cursor: 'pointer',
                   zIndex: 9999,
-                  position: 'relative'
+                  position: 'relative',
+                  marginBottom: '16px'
                 }}
               >
                 Start Learning
               </button>
-              
+
+              {/* After Start Learning Button */}
+<div className="mt-10 flex flex-col items-center gap-4">
+  {/* Channel Name */}
+  <h3 className="text-lg font-semibold text-gray-800 dark:text-gray-200">
+    Atoz education - Anand wagh
+  </h3>
+
+  {/* Stats */}
+  <div className="flex justify-center gap-10">
+    {/* Views */}
+    <div className="flex flex-col items-center bg-white dark:bg-gray-900 shadow-lg rounded-xl p-4 w-36 hover:scale-105 transition">
+      <span className="text-2xl font-bold text-red-500">236k+</span>
+      <span className="text-sm text-gray-500">Views</span>
+    </div>
+
+    {/* Videos */}
+    <div className="flex flex-col items-center bg-white dark:bg-gray-900 shadow-lg rounded-xl p-4 w-36 hover:scale-105 transition">
+      <span className="text-2xl font-bold text-yellow-500">600+</span>
+      <span className="text-sm text-gray-500">Videos</span>
+    </div>
+  </div>
+</div>
+
+
+
             </div>
 
             {/* Coming Soon Banner */}
@@ -79,7 +100,7 @@ const Home = () => {
                 Coming Soon
               </h2>
               <p className="text-gray-600 dark:text-gray-300 text-lg">
-                We're working hard to bring you an amazing educational experience. 
+                We're working hard to bring you an amazing educational experience.
                 Stay tuned for updates!
               </p>
             </div>
