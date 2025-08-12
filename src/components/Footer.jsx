@@ -15,14 +15,14 @@ function Footer() {
               alt="A-to-Z Education Logo"
               className="w-24 h-24 object-contain rounded" />
             <span className="text-lg font-semibold text-gray-900 dark:text-white">
-              A-to-Z Education
+              A to Z Education
             </span>
           </div>
 
           {/* Copyright */}
           <div className="text-center md:text-right">
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              © {currentYear} A-to-Z Education. All rights reserved.
+              © {currentYear} A to Z Education. All rights reserved.
             </p>
             <p className="text-xs text-gray-500 dark:text-gray-500 mt-1">
               Empowering students from 2nd to 5th standard

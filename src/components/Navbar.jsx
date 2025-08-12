@@ -26,11 +26,11 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
             <Link to="/" className="flex items-center space-x-2">
               <img 
                 src="/logo1.png" 
-                alt="A-to-Z Education Logo" 
+                alt="A to Z Education Logo" 
                 className="w-24 h-24 rounded-lg object-cover"
               />
               <span className="text-xl font-bold text-gray-900 dark:text-white">
-                A-to-Z Education
+                A to Z Education
               </span>
             </Link>
           </div>
